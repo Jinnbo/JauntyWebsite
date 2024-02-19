@@ -17,13 +17,14 @@ function App() {
   return (
   <>
     <div>
+      
       <Navbar/>
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="buyequipment" element={<BuyEquipmentPage/>}/>
         <Route path="contact" element={<Contactpage/>}/>
         <Route path="materials" element={<MaterialsPage/>}/>
-        <Route path="repairequipment" element={<RepairEquipmentPage/>}/>
+        <Route path="repair" element={<RepairEquipmentPage/>}/>
       </Routes>
     </div>
   </>
