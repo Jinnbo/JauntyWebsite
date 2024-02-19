@@ -1,5 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
+import SimpleSlider from '../../Components/Carousel/Carousel';
 
 const LandingPage = () => {
   return (
@@ -13,10 +14,8 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="LandingPageAboutUsRight">
-          <img src="./left.png" className='left' alt="About Us" />
-          <img src="./pic1.png" className='pic1' alt="About Us" />
-          <img src="./right.png" className='right' alt="About Us" />
+        <div className="LandingPageAboutUsRight"> 
+          <SimpleSlider/>
         </div>
       </div>
     </div>

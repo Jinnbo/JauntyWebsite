@@ -1,0 +1,16 @@
+.image-slider-container {
+    margin: 0 auto;
+    width: 400px;
+    padding-left: 10rem;
+}
+
+.image-slider-container .slick-prev:before,
+.image-slider-container .slick-next:before {
+color: black;
+}
+
+.carouselItem{
+    max-width: 300px;
+    max-height: 300px;
+}
+  
