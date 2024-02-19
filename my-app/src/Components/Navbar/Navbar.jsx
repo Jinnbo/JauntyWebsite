@@ -7,11 +7,18 @@ const Navbar = () => {
         <nav>
             <ul>
                 <li className='navbarContainer'>
-                    <Link to="/">Home (Landing Page)</Link>
-                    <Link to="/materials">Materials</Link>
-                    <Link to="/buyequipment">Buy Equipment</Link>
-                    <Link to="/repairequipment">Repair Equipment</Link>
-                    <Link to="/contact">Contact</Link>
+                    <div className="navbarLeftContainer">
+                        <Link to="/">
+                            <img src="./Logo.png"/>
+                        </Link>
+                    </div>
+
+                    <div className="navbarRightContainer">
+                        <Link to="/materials">Materials</Link>
+                        <Link to="/buyequipment">Buy Equipment</Link>
+                        <Link to="/repairequipment">Repair Equipment</Link>
+                        <Link to="/contact">Contact</Link>
+                    </div>
                 </li>
             </ul>
         </nav>
