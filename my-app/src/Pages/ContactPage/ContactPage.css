@@ -1,0 +1,38 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+
+.addressTop,
+.phoneNumberTop,
+.emailTop{
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.address,
+.phoneNumber,
+.email{
+    background-color: #188F95;
+    width: 50%;
+    border-radius: 50px;
+    padding: 1rem 0 0 2rem;
+    height: 20vh;
+}
+
+.phoneNumber{
+    height: 12rem;
+}
+
+.phoneNumberInfo{
+    display: flex;
+    gap: 5rem;
+
+}
