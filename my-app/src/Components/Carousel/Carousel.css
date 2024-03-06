@@ -4,13 +4,33 @@
     padding-left: 10rem;
 }
 
-.image-slider-container .slick-prev:before,
-.image-slider-container .slick-next:before {
-color: black;
+.slick-prev:before,
+.slick-next:before {
+    color: #188F95;
 }
 
 .carouselItem{
     max-width: 300px;
     max-height: 300px;
 }
-  
+
+.slider-container{
+    max-width: 90%;
+    margin-left: 4rem;    
+}
+
+.test{
+    padding-left: 5rem;
+}
+
+@media screen and (max-width: 500px){
+    .slider-container{
+        max-width: 50%;
+        margin-left: 8rem;
+    }
+    
+    .test{
+        padding-left: 0rem;
+    }
+
+}

@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Carousel.css';
 
-export default function ImageSlider() {
+function ImageSlider() {
   const settings = {
     dots: true,
   };
@@ -27,3 +27,5 @@ export default function ImageSlider() {
     </div>
   );
 }
+
+export default ImageSlider;
