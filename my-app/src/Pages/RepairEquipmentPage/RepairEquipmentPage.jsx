@@ -5,16 +5,16 @@ const RepairEquipmentPage = () => {
   return (
     <div className='container'>
       <div className="imageContainer">
-        <img src='./1.png'></img>
+        <img src='./1.PNG'></img>
       </div>
       <div className="imageContainer">
-        <img src='./2.png'></img>
+        <img src='./2.PNG'></img>
       </div>
       <div className="imageContainer">
-        <img src='./3.png'></img>
+        <img src='./3.PNG'></img>
       </div>
       <div className="imageContainer">
-        <img src='./4.png'></img>
+        <img src='./4.PNG'></img>
       </div>
     </div>
   );
